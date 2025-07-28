@@ -1,4 +1,4 @@
-import axios from "@/utiles/axios";
+import axios from "../utiles/axios";
 import {
   addstudent,
   removestudent,
