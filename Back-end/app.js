@@ -14,7 +14,7 @@ require("./models/database").connectDatabase();
 const cors = require("cors");
 app.use(cors({
   origin: [
-     "https://careerhub-gilt.vercel.app/",
+     process.env.FRONTEND_URL
   ],
   credentials: true
 }));
