@@ -38,6 +38,9 @@ app.use(
 );
 
 // ===== Routes =====
+app.use("/dummy",(req, res) => {
+  res.status(200).json({ message: "Dummy Route" });
+});
 app.use("/", require("./routes/indexRouter"));
 app.use("/resume", require("./routes/resumeRoutes")); 
 app.use("/employe", require("./routes/employeRouter"));
