@@ -60,13 +60,13 @@ const Page = () => {
                   </div>
                   <div className="rounded-md shadow">
                     <Link
-                      href="https://careerhub-gilt.vercel.app/student/signin"
+                      href="/student/signin"
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
                     >
                       Sign In
                     </Link>
                     <Link
-                      href="https://careerhub-gilt.vercel.app/dummy"
+                      href="https://careerhub-z1gd.onrender.com/dummy"
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
                     >
                       dummy

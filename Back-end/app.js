@@ -14,7 +14,7 @@ require("./models/database").connectDatabase();
 const cors = require("cors");
 app.use(cors({
   origin: [
-     "https://careerhub-z1gd.onrender.com",
+     "https://careerhub-gilt.vercel.app/",
   ],
   credentials: true
 }));
