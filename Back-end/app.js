@@ -39,7 +39,7 @@ app.use(
 
 // ===== Routes =====
 app.use("/dummy",(req, res) => {
-  res.status(200).json({ message: "Dummy Route" });
+  res.status(200).json({ message: process.env.REACT_APP_API_BASE_URL});
 });
 app.use("/", require("./routes/indexRouter"));
 app.use("/resume", require("./routes/resumeRoutes")); 
